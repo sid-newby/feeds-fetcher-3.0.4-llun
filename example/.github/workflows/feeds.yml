@@ -1,0 +1,19 @@
+name: Feeds
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    name: Build static feeds site
+    steps:
+      - name: Run Action
+        uses: llun/feeds@3.0.4
+        with:
+          storageType: files
+          customDomain: feeds.llun.dev

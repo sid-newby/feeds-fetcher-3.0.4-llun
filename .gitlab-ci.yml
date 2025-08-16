@@ -1,0 +1,13 @@
+image: node:lts
+
+pages:
+  stage: deploy
+  script:
+    - yarn install
+    - INPUT_OPMLFILE='feeds.opml' yarn run swc-node index.ts
+    - yarn run build -o public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
