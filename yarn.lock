@@ -2122,14 +2122,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/html-minifier@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "@types/html-minifier@npm:4.0.5"
+"@types/html-minifier@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "@types/html-minifier@npm:4.0.6"
   dependencies:
     "@types/clean-css": "npm:*"
     "@types/relateurl": "npm:*"
     "@types/uglify-js": "npm:*"
-  checksum: 10c0/7ecf8d2358b9f7a88e4c157b1ed951cf9dcf66e1f54f798074082b6d36f88a3eb46b0a364eda8bae5c020b491d7fcab5cd9d6de08021c0337d0156f6f7e12fd4
+  checksum: 10c0/b3a84803f3d4fd87043f7ba860350ec18fdc6d5e869bd98cd6696277c12077f9aeff037bab2043f598787a7a9da2dfc43982364a83ac756f4bbd22742877028d
   languageName: node
   linkType: hard
 
@@ -4092,7 +4092,7 @@ __metadata:
     "@swc/core": "npm:^1.13.5"
     "@tailwindcss/postcss": "npm:^4.1.14"
     "@tailwindcss/typography": "npm:^0.5.19"
-    "@types/html-minifier": "npm:^4.0.5"
+    "@types/html-minifier": "npm:^4.0.6"
     "@types/jsdom": "npm:^27.0.0"
     "@types/node": "npm:^24.9.1"
     "@types/react": "npm:^19.2.2"
